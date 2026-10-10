@@ -40,7 +40,16 @@ Software Engineering graduate with hands-on experience in **Web Development** an
 ## 🧠 Tech Stack
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=py,js,ts,react,nodejs,express,django,pytorch,postgres,git,github,linux,vscode&perline=13" alt="skills"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=white" alt="React"/>
+  <img src="https://img.shields.io/badge/Node%2Ejs-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/>
+  <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express"/>
+  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django"/>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/>
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
 </div>
 
 ```txt
@@ -67,12 +76,13 @@ Databases     → SQL
 ## 👨‍💻 Developer Card
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=mohamedselimdev&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&count_private=true" alt="stats"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohamedselimdev&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="top langs"/>
+  <img height="170" src="https://raw.githubusercontent.com/mohamedselimdev/mohamedselimdev/main/profile-summary-card-output/tokyonight/3-stats.svg" alt="stats"/>
+  <img height="170" src="https://raw.githubusercontent.com/mohamedselimdev/mohamedselimdev/main/profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="top langs"/>
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=mohamedselimdev&theme=tokyonight&hide_border=true&background=0d1117" alt="streak"/>
+  <img height="170" src="https://raw.githubusercontent.com/mohamedselimdev/mohamedselimdev/main/profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="repos per language"/>
+  <img height="170" src="https://raw.githubusercontent.com/mohamedselimdev/mohamedselimdev/main/profile-summary-card-output/tokyonight/4-productive-time.svg" alt="productive time"/>
 </div>
 
 ---
@@ -91,12 +101,6 @@ Databases     → SQL
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohamedselimdev/mohamedselimdev/output/github-snake.svg"/>
     <img alt="snake" src="https://raw.githubusercontent.com/mohamedselimdev/mohamedselimdev/output/github-snake-dark.svg"/>
   </picture>
-</div>
-
-## 📈 Activity
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mohamedselimdev&theme=tokyo-night&hide_border=true&bg_color=0d1117&area=true" alt="activity" width="100%"/>
 </div>
 
 ---
