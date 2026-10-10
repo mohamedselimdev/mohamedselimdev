@@ -81,7 +81,7 @@ Databases     → SQL
 ## 🧊 3D Contribution Graph
 
 <div align="center">
-  <img src="./profile-3d-contrib/profile-night-view.svg" alt="3D contributions" width="100%"/>
+  <img src="https://raw.githubusercontent.com/mohamedselimdev/mohamedselimdev/main/profile-3d-contrib/profile-night-view.svg" alt="3D contributions" width="100%"/>
 </div>
 
 ## 🐍 Contribution Snake
