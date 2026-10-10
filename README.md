@@ -11,10 +11,6 @@
 </div>
 
 <p align="center">
-  <img src="https://img.shields.io/github/followers/mohamedselimdev?label=Followers&style=for-the-badge&logo=github&color=1F6BFF" alt="followers"/>
-</p>
-
-<p align="center">
   🎓 Software Engineering Graduate — <b>Ural Federal University</b> &nbsp;•&nbsp; 📍 Yekaterinburg, Russia &nbsp;•&nbsp; 🟢 Open to work
 </p>
 
