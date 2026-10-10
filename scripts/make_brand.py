@@ -159,11 +159,11 @@ card_front = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="60
 <text x="525" y="470" text-anchor="middle" font-family="{MONO}" font-size="22" fill="{ACCENT}">&lt;/&gt; I build things that actually work</text>
 </svg>'''
 
-contacts = [("EMAIL", "mohamedosamaegy1@gmail.com"), ("PORTFOLIO", "portfolio.mohamedselim.workers.dev"),
+contacts = [("PHONE", "+7 929 958-82-41"), ("EMAIL", "mohamedosamaegy1@gmail.com"), ("PORTFOLIO", "portfolio.mohamedselim.workers.dev"),
             ("LINKEDIN", "linkedin.com/in/mohamed-selim-249109239"), ("INSTAGRAM", "@mohamedselim.dev"),
             ("GITHUB", "github.com/mohamedselimdev")]
-rows = "".join(f'<text x="70" y="{300 + k * 52}" font-family="{SANS}" font-size="14" font-weight="700" fill="{ACCENT}" letter-spacing="2">{a}</text>'
-               f'<text x="190" y="{300 + k * 52}" font-family="{MONO}" font-size="20" fill="{FG}">{b}</text>' for k, (a, b) in enumerate(contacts))
+rows = "".join(f'<text x="70" y="{292 + k * 47}" font-family="{SANS}" font-size="14" font-weight="700" fill="{ACCENT}" letter-spacing="2">{a}</text>'
+               f'<text x="190" y="{292 + k * 47}" font-family="{MONO}" font-size="20" fill="{FG}">{b}</text>' for k, (a, b) in enumerate(contacts))
 card_back = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="600" viewBox="0 0 1050 600">
 {defs()}
 <rect width="1050" height="600" fill="{BG}"/>
