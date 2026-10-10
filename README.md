@@ -22,6 +22,8 @@
 <p align="center">
   <a href="https://github.com/mohamedselimdev"><img src="https://img.shields.io/badge/GitHub-mohamedselimdev-181717?style=for-the-badge&logo=github" alt="GitHub"/></a>
   <a href="https://www.linkedin.com/in/mohamed-selim-249109239"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://portfolio.mohamedselim.workers.dev"><img src="https://img.shields.io/badge/Portfolio-Visit-00E5FF?style=for-the-badge&logo=cloudflare&logoColor=black" alt="Portfolio"/></a>
+  <a href="https://www.instagram.com/mohamedselim.dev"><img src="https://img.shields.io/badge/Instagram-mohamedselim.dev-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
   <a href="mailto:mohamedosamaegy1@gmail.com"><img src="https://img.shields.io/badge/Email-Hire%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
 
@@ -49,6 +51,17 @@ Backend       → Node.js | Express | Django
 ML            → PyTorch
 Databases     → SQL
 ```
+
+---
+
+## 🚀 Featured Projects
+
+| Project | What it is | Link |
+|---|---|---|
+| **Basaer Medical Center** | Eye clinic booking platform with a step-by-step booking wizard, bilingual (AR/EN) | [basaercenter.com](https://basaercenter.com) |
+| **Hema Phone** | Bilingual e-commerce store with admin dashboard and role-based permissions | [hemaphone.net](https://hemaphone.net) |
+| **Personal Portfolio** | Bilingual portfolio with a built-in CMS (Next.js + Cloudflare) | [Live](https://portfolio.mohamedselim.workers.dev) · [Code](https://github.com/mohamedselimdev/ms-portfolio) |
+| **Ryadom** | Psychological support platform — graduation project, Ural Federal University | [Code](https://github.com/mohamedselimdev/Ryadom) |
 
 ---
 
