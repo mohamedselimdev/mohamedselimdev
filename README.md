@@ -10,6 +10,10 @@
   </a>
 </div>
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/mohamedselimdev/mohamedselimdev/main/assets/avatar-3d.svg" width="340" alt="Mohamed Selim - 3D pixel avatar"/>
+</div>
+
 <p align="center">
   <img src="https://img.shields.io/github/followers/mohamedselimdev?label=Followers&style=for-the-badge&logo=github&color=24292e" alt="followers"/>
 </p>
