@@ -1,17 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="100" viewBox="0 0 1000 100" aria-hidden="true">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="130" viewBox="0 0 1000 130" aria-hidden="true">
 <defs>
-<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f2027"/><stop offset="0.5" stop-color="#203a43"/><stop offset="1" stop-color="#2c5364"/></linearGradient>
-<linearGradient id="w0" x1="0" x2="1"><stop offset="0" stop-color="#00e5ff"/><stop offset="1" stop-color="#7c4dff"/></linearGradient>
-<linearGradient id="w1" x1="0" x2="1"><stop offset="0" stop-color="#7c4dff"/><stop offset="1" stop-color="#00e5ff"/></linearGradient>
-<linearGradient id="w2" x1="0" x2="1"><stop offset="0" stop-color="#00e5ff"/><stop offset="1" stop-color="#00ff9d"/></linearGradient>
-<linearGradient id="tx" x1="0" x2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#8be9fd"/></linearGradient>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#050B18"/><stop offset="1" stop-color="#0B1428"/></linearGradient>
+<radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#1F6BFF" stop-opacity=".55"/><stop offset="1" stop-color="#1F6BFF" stop-opacity="0"/></radialGradient>
+<linearGradient id="w0" x1="0" x2="1"><stop offset="0" stop-color="#0A5BFF"/><stop offset="1" stop-color="#3DA5FF"/></linearGradient>
+<linearGradient id="w1" x1="0" x2="1"><stop offset="0" stop-color="#3DA5FF"/><stop offset="1" stop-color="#1F6BFF"/></linearGradient>
+<linearGradient id="w2" x1="0" x2="1"><stop offset="0" stop-color="#1F6BFF"/><stop offset="1" stop-color="#0A5BFF"/></linearGradient>
+<linearGradient id="tx" x1="0" x2="1"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#3DA5FF"/></linearGradient>
 </defs>
-<rect width="1000" height="100" fill="none"/>
-<path d="M-200,45 q150,-22 300,0 t300,0 q150,-22 300,0 t300,0 q150,-22 300,0 t300,0 V100 H-200 Z" fill="url(#w0)" opacity="0.18">
-<animateTransform attributeName="transform" type="translate" from="0 0" to="-600 0" dur="18s" repeatCount="indefinite"/></path>
-<path d="M-200,59 q150,-16 300,0 t300,0 q150,-16 300,0 t300,0 q150,-16 300,0 t300,0 V100 H-200 Z" fill="url(#w1)" opacity="0.28">
-<animateTransform attributeName="transform" type="translate" from="0 0" to="-600 0" dur="14s" repeatCount="indefinite"/></path>
-<path d="M-200,73 q150,-10 300,0 t300,0 q150,-10 300,0 t300,0 q150,-10 300,0 t300,0 V100 H-200 Z" fill="url(#w2)" opacity="0.45">
-<animateTransform attributeName="transform" type="translate" from="0 0" to="-600 0" dur="10s" repeatCount="indefinite"/></path>
+<path d="M-200,70 q150,-22 300,0 t300,0 q150,-22 300,0 t300,0 q150,-22 300,0 t300,0 V130 H-200 Z" fill="url(#w0)" opacity="0.2"><animateTransform attributeName="transform" type="translate" from="0 0" to="-600 0" dur="18s" repeatCount="indefinite"/></path>
+<path d="M-200,84 q150,-16 300,0 t300,0 q150,-16 300,0 t300,0 q150,-16 300,0 t300,0 V130 H-200 Z" fill="url(#w1)" opacity="0.32"><animateTransform attributeName="transform" type="translate" from="0 0" to="-600 0" dur="14s" repeatCount="indefinite"/></path>
+<path d="M-200,98 q150,-10 300,0 t300,0 q150,-10 300,0 t300,0 q150,-10 300,0 t300,0 V130 H-200 Z" fill="url(#w2)" opacity="0.5"><animateTransform attributeName="transform" type="translate" from="0 0" to="-600 0" dur="10s" repeatCount="indefinite"/></path>
 
+<svg x="460" y="6" width="80" height="62" viewBox="140 255 995 765" fill="none">
+  <g fill="#FFFFFF">
+    <path d="M148 263L500 512L660 357C700 318 752 292 808 292H977L1065 377H830C762 377 716 425 716 478C716 540 772 580 852 580H940C1050 582 1122 668 1122 775C1122 858 1080 918 1015 942L985 852L1070 808L1022 778C1012 705 962 664 905 664H770C690 664 637 610 637 531L486 660L236 452V715L362 878V1012L150 776C149 774 148 772 148 770Z"/>
+    <path d="M498 690L605 601V735L720 848C732 858 748 862 764 862H816L826 938L882 832L978 932C974 950 952 962 915 962H740C690 962 650 945 620 915L498 795Z"/>
+  </g>
+  <g fill="#0A5BFF">
+    <path d="M265 525L345 592C358 605 362 620 362 638V850L270 738C266 733 265 728 265 720Z"/>
+    <path d="M835 706L1028 815L958 835L988 915L882 806L836 892Z"/>
+  </g>
+  <g stroke="#0A5BFF" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M853 437L797 485L853 533" stroke-width="22"/>
+    <path d="M938 413L882 553" stroke-width="24"/>
+    <path d="M970 437L1026 485L970 533" stroke-width="22"/>
+  </g>
+</svg>
 </svg>

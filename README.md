@@ -6,12 +6,12 @@
 <!-- Typing animation -->
 <div align="center">
   <a href="https://github.com/mohamedselimdev">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=900&color=00E5FF&center=true&vCenter=true&width=640&lines=I+build+things+that+actually+work;Full-Stack+Developer+%7C+React+%26+Node.js;Machine+Learning+with+PyTorch;Clean+code.+Real-world+logic.+Scalable+solutions." alt="Typing SVG"/>
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=900&color=3DA5FF&center=true&vCenter=true&width=640&lines=I+build+things+that+actually+work;Full-Stack+Developer+%7C+React+%26+Node.js;Machine+Learning+with+PyTorch;Clean+code.+Real-world+logic.+Scalable+solutions." alt="Typing SVG"/>
   </a>
 </div>
 
 <p align="center">
-  <img src="https://img.shields.io/github/followers/mohamedselimdev?label=Followers&style=for-the-badge&logo=github&color=24292e" alt="followers"/>
+  <img src="https://img.shields.io/github/followers/mohamedselimdev?label=Followers&style=for-the-badge&logo=github&color=1F6BFF" alt="followers"/>
 </p>
 
 <p align="center">
@@ -21,7 +21,7 @@
 <p align="center">
   <a href="https://github.com/mohamedselimdev"><img src="https://img.shields.io/badge/GitHub-mohamedselimdev-181717?style=for-the-badge&logo=github" alt="GitHub"/></a>
   <a href="https://www.linkedin.com/in/mohamed-selim-249109239"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://portfolio.mohamedselim.workers.dev"><img src="https://img.shields.io/badge/Portfolio-Visit-00E5FF?style=for-the-badge&logo=cloudflare&logoColor=black" alt="Portfolio"/></a>
+  <a href="https://portfolio.mohamedselim.workers.dev"><img src="https://img.shields.io/badge/Portfolio-Visit-1F6BFF?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Portfolio"/></a>
   <a href="https://www.instagram.com/mohamedselim.dev"><img src="https://img.shields.io/badge/Instagram-mohamedselim.dev-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
   <a href="mailto:mohamedosamaegy1@gmail.com"><img src="https://img.shields.io/badge/Email-Hire%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
@@ -76,13 +76,13 @@ Databases     → SQL
 ## 👨‍💻 Developer Card
 
 <div align="center">
-  <img height="170" src="https://raw.githubusercontent.com/mohamedselimdev/mohamedselimdev/main/profile-summary-card-output/tokyonight/3-stats.svg" alt="stats"/>
-  <img height="170" src="https://raw.githubusercontent.com/mohamedselimdev/mohamedselimdev/main/profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="top langs"/>
+  <img height="170" src="https://raw.githubusercontent.com/mohamedselimdev/mohamedselimdev/main/profile-summary-card-output/prussian/3-stats.svg" alt="stats"/>
+  <img height="170" src="https://raw.githubusercontent.com/mohamedselimdev/mohamedselimdev/main/profile-summary-card-output/prussian/2-most-commit-language.svg" alt="top langs"/>
 </div>
 
 <div align="center">
-  <img height="170" src="https://raw.githubusercontent.com/mohamedselimdev/mohamedselimdev/main/profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="repos per language"/>
-  <img height="170" src="https://raw.githubusercontent.com/mohamedselimdev/mohamedselimdev/main/profile-summary-card-output/tokyonight/4-productive-time.svg" alt="productive time"/>
+  <img height="170" src="https://raw.githubusercontent.com/mohamedselimdev/mohamedselimdev/main/profile-summary-card-output/prussian/1-repos-per-language.svg" alt="repos per language"/>
+  <img height="170" src="https://raw.githubusercontent.com/mohamedselimdev/mohamedselimdev/main/profile-summary-card-output/prussian/4-productive-time.svg" alt="productive time"/>
 </div>
 
 ---
@@ -101,6 +101,22 @@ Databases     → SQL
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohamedselimdev/mohamedselimdev/output/github-snake.svg"/>
     <img alt="snake" src="https://raw.githubusercontent.com/mohamedselimdev/mohamedselimdev/output/github-snake-dark.svg"/>
   </picture>
+</div>
+
+---
+
+## 🎨 Brand Identity
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohamedselimdev/mohamedselimdev/main/brand/logo.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohamedselimdev/mohamedselimdev/main/brand/logo-dark.svg"/>
+    <img src="https://raw.githubusercontent.com/mohamedselimdev/mohamedselimdev/main/brand/logo.svg" width="180" alt="MS logo"/>
+  </picture>
+  <br/><br/>
+  <img src="https://raw.githubusercontent.com/mohamedselimdev/mohamedselimdev/main/assets/brand-palette.svg" width="100%" alt="Brand palette and typography"/>
+  <br/>
+  <a href="./brand/BRAND.md"><b>Brand guidelines →</b></a>
 </div>
 
 ---
