@@ -17,7 +17,12 @@ The mark is an **MS** monogram. The `</>` tag stands for code, the cursor for th
 |---|---|
 | [`logo.svg`](logo.svg) | dark backgrounds (white + blue) |
 | [`logo-dark.svg`](logo-dark.svg) | light backgrounds (near-black + blue) |
-| [`social-preview.png`](social-preview.png) | repository social preview, 1280 × 640 |
+| [`avatar.png`](avatar.png) / [`avatar.svg`](avatar.svg) | profile picture: GitHub, LinkedIn, Instagram (1000 × 1000) |
+| [`favicon.svg`](favicon.svg) / [`favicon-180.png`](favicon-180.png) | browser tab and home-screen icon |
+| [`linkedin-banner.png`](linkedin-banner.png) | LinkedIn cover (1584 × 396) |
+| [`social-preview.png`](social-preview.png) | repository social preview (1280 × 640) |
+| [`business-card-front.png`](business-card-front.png) / [`business-card-back.png`](business-card-back.png) | business card, 3.5 × 2 in at 300 dpi |
+| [`email-signature.html`](email-signature.html) | email signature |
 
 - **Clear space:** keep at least the height of the `</>` tag free on every side.
 - **Minimum size:** 32 px wide on screen.
@@ -55,4 +60,4 @@ English first; Arabic versions use true right-to-left layout.
 
 - Profile README: header, footer, badges, charts (`prussian` card theme, blue snake and 3D graph).
 - Portfolio site: same palette, fonts and logo (`ms-portfolio`).
-- Regenerate the header, footer, palette card and social preview with `python3 scripts/make_brand.py`.
+- Regenerate every SVG with `python3 scripts/make_brand.py`, then the PNGs with `python3 scripts/render_brand.py`.

@@ -121,6 +121,63 @@ social = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" v
 <text x="644" y="384" font-size="24" fill="{ACCENT}" font-family="{MONO}">&lt;/&gt; I build things that actually work</text>
 </g></svg>'''
 
-for path, body in [("assets/header.svg", header), ("assets/footer.svg", footer), ("assets/brand-palette.svg", palette), ("brand/social-preview.svg", social)]:
+
+# ---- avatar, favicon, linkedin banner, business card ---------------------
+avatar = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+{defs()}
+<rect width="1000" height="1000" fill="url(#bg)"/>
+<circle cx="500" cy="500" r="480" fill="url(#glow)"/>
+{logo_at(150, 500 - 0.5 * 700 * 765 / 995, 700)}
+</svg>'''
+
+favicon = f'''<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+<rect width="64" height="64" rx="14" fill="{BG}"/>
+{logo_at(6, 32 - 26 * 765 / 995 / 1, 52)}
+</svg>'''
+
+banner = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1584" height="396" viewBox="0 0 1584 396">
+{defs()}
+<rect width="1584" height="396" fill="url(#bg)"/>
+<circle cx="1180" cy="170" r="330" fill="url(#glow)"/>
+<g>{stars(60, 1584, 330)}</g>
+<g transform="translate(0,230) scale(1.6,1)">{waves(170, 80, animate=False)}</g>
+{logo_at(1030, 70, 330)}
+<line x1="980" y1="90" x2="980" y2="290" stroke="{ACCENT}" stroke-opacity=".4" stroke-width="3"/>
+<g font-family="{SANS}">
+<text x="120" y="150" font-size="64" font-weight="800" fill="url(#tx)">Mohamed Selim</text>
+<text x="124" y="196" font-size="26" fill="#cfe0ff" letter-spacing="3">FULL-STACK DEVELOPER  •  WEB &amp; ML</text>
+<text x="124" y="244" font-size="22" fill="{ACCENT}" font-family="{MONO}">&lt;/&gt; I build things that actually work</text>
+</g></svg>'''
+
+card_front = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="600" viewBox="0 0 1050 600">
+{defs()}
+<rect width="1050" height="600" fill="url(#bg)"/>
+<circle cx="525" cy="270" r="330" fill="url(#glow)"/>
+<g>{stars(40, 1050, 440)}</g>
+<g transform="translate(0,500) scale(1.05,1)">{waves(100, 30, animate=False)}</g>
+{logo_at(290, 70, 470)}
+<text x="525" y="470" text-anchor="middle" font-family="{MONO}" font-size="22" fill="{ACCENT}">&lt;/&gt; I build things that actually work</text>
+</svg>'''
+
+contacts = [("EMAIL", "mohamedosamaegy1@gmail.com"), ("PORTFOLIO", "portfolio.mohamedselim.workers.dev"),
+            ("LINKEDIN", "linkedin.com/in/mohamed-selim-249109239"), ("INSTAGRAM", "@mohamedselim.dev"),
+            ("GITHUB", "github.com/mohamedselimdev")]
+rows = "".join(f'<text x="70" y="{300 + k * 52}" font-family="{SANS}" font-size="14" font-weight="700" fill="{ACCENT}" letter-spacing="2">{a}</text>'
+               f'<text x="190" y="{300 + k * 52}" font-family="{MONO}" font-size="20" fill="{FG}">{b}</text>' for k, (a, b) in enumerate(contacts))
+card_back = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="600" viewBox="0 0 1050 600">
+{defs()}
+<rect width="1050" height="600" fill="{BG}"/>
+<rect x="0" y="0" width="14" height="600" fill="url(#w1)"/>
+{logo_at(790, 50, 200)}
+<g font-family="{SANS}">
+<text x="70" y="130" font-size="46" font-weight="800" fill="{FG}">Mohamed Selim</text>
+<text x="72" y="172" font-size="20" fill="{MUTED}" letter-spacing="2.5">FULL-STACK DEVELOPER  •  WEB &amp; ML</text>
+<text x="72" y="206" font-size="16" fill="{MUTED}">Yekaterinburg, Russia · Working remotely worldwide</text>
+</g>
+<line x1="70" y1="238" x2="980" y2="238" stroke="#ffffff" stroke-opacity=".14"/>
+{rows}
+</svg>'''
+
+for path, body in [("assets/header.svg", header), ("assets/footer.svg", footer), ("assets/brand-palette.svg", palette), ("brand/social-preview.svg", social), ("brand/avatar.svg", avatar), ("brand/favicon.svg", favicon), ("brand/linkedin-banner.svg", banner), ("brand/business-card-front.svg", card_front), ("brand/business-card-back.svg", card_back)]:
     open(path, "w").write(body)
     print("wrote", path, len(body))

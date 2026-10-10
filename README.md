@@ -116,7 +116,7 @@ Databases     → SQL
   <br/><br/>
   <img src="https://raw.githubusercontent.com/mohamedselimdev/mohamedselimdev/main/assets/brand-palette.svg" width="100%" alt="Brand palette and typography"/>
   <br/>
-  <a href="./brand/BRAND.md"><b>Brand guidelines →</b></a>
+  <a href="./brand/BRAND.md"><b>Brand guidelines</b></a> · <a href="./brand/linkedin-banner.png">LinkedIn banner</a> · <a href="./brand/business-card-front.png">Business card</a> · <a href="./brand/avatar.png">Avatar</a>
 </div>
 
 ---
