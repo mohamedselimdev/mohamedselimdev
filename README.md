@@ -11,7 +11,7 @@
 </div>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/mohamedselimdev/mohamedselimdev/main/assets/avatar-3d.svg" width="340" alt="Mohamed Selim - 3D pixel avatar"/>
+  <img src="https://raw.githubusercontent.com/mohamedselimdev/mohamedselimdev/main/assets/avatar-3d.svg" width="400" alt="Mohamed Selim - 3D pixel avatar"/>
 </div>
 
 <p align="center">
