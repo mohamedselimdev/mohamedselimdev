@@ -1,6 +1,6 @@
 <!-- Animated header -->
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=12,20,24&height=230&section=header&text=Mohamed%20Selim&fontSize=64&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=Software%20Engineer%20%E2%80%A2%20Web%20%26%20Machine%20Learning&descSize=18&descAlignY=60" alt="Mohamed Selim"/>
+  <img width="100%" src="https://raw.githubusercontent.com/mohamedselimdev/mohamedselimdev/main/assets/header.svg" alt="Mohamed Selim"/>
 </div>
 
 <!-- Typing animation -->
@@ -11,7 +11,6 @@
 </div>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=mohamedselimdev&label=Profile+views&color=0e75b6&style=for-the-badge" alt="views"/>
   <img src="https://img.shields.io/github/followers/mohamedselimdev?label=Followers&style=for-the-badge&logo=github&color=24292e" alt="followers"/>
 </p>
 
@@ -106,4 +105,4 @@ Databases     → SQL
   <i>"Make it work, make it right, make it fast."</i>
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=110&section=footer" alt="footer"/>
+<img width="100%" src="https://raw.githubusercontent.com/mohamedselimdev/mohamedselimdev/main/assets/footer.svg" alt="footer"/>
