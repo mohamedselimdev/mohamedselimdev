@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="400" viewBox="0 0 1000 400" role="img" aria-label="Brand palette and typography">
+<rect width="1000" height="400" rx="16" fill="#050B18" stroke="#ffffff" stroke-opacity=".12"/>
+<svg x="40" y="26" width="128" height="98" viewBox="140 255 995 765" fill="none">
+  <g fill="#FFFFFF">
+    <path d="M148 263L500 512L660 357C700 318 752 292 808 292H977L1065 377H830C762 377 716 425 716 478C716 540 772 580 852 580H940C1050 582 1122 668 1122 775C1122 858 1080 918 1015 942L985 852L1070 808L1022 778C1012 705 962 664 905 664H770C690 664 637 610 637 531L486 660L236 452V715L362 878V1012L150 776C149 774 148 772 148 770Z"/>
+    <path d="M498 690L605 601V735L720 848C732 858 748 862 764 862H816L826 938L882 832L978 932C974 950 952 962 915 962H740C690 962 650 945 620 915L498 795Z"/>
+  </g>
+  <g fill="#0A5BFF">
+    <path d="M265 525L345 592C358 605 362 620 362 638V850L270 738C266 733 265 728 265 720Z"/>
+    <path d="M835 706L1028 815L958 835L988 915L882 806L836 892Z"/>
+  </g>
+  <g stroke="#0A5BFF" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M853 437L797 485L853 533" stroke-width="22"/>
+    <path d="M938 413L882 553" stroke-width="24"/>
+    <path d="M970 437L1026 485L970 533" stroke-width="22"/>
+  </g>
+</svg>
+<g font-family="'Plus Jakarta Sans','Segoe UI',Helvetica,Arial,sans-serif">
+<text x="200" y="64" font-size="26" font-weight="800" fill="#F4F7FF">Mohamed Selim — Brand Identity</text>
+<text x="200" y="90" font-size="14" fill="#9AA8C3">Blue on deep navy. Sharp, technical, confident.</text>
+<text x="40" y="142" font-size="12" font-weight="700" fill="#3DA5FF" letter-spacing="2">COLOUR</text>
+</g>
+<rect x="40" y="150" width="124" height="92" rx="12" fill="#1F6BFF" stroke="#ffffff" stroke-opacity=".14"/><text x="52" y="206" font-family="'Plus Jakarta Sans','Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#F4F7FF">Primary</text><text x="52" y="226" font-family="'JetBrains Mono','SF Mono',Consolas,monospace" font-size="12" fill="#F4F7FF" opacity=".85">#1F6BFF</text><rect x="174" y="150" width="124" height="92" rx="12" fill="#3DA5FF" stroke="#ffffff" stroke-opacity=".14"/><text x="186" y="206" font-family="'Plus Jakarta Sans','Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#050B18">Accent</text><text x="186" y="226" font-family="'JetBrains Mono','SF Mono',Consolas,monospace" font-size="12" fill="#050B18" opacity=".85">#3DA5FF</text><rect x="308" y="150" width="124" height="92" rx="12" fill="#0A5BFF" stroke="#ffffff" stroke-opacity=".14"/><text x="320" y="206" font-family="'Plus Jakarta Sans','Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#F4F7FF">Royal</text><text x="320" y="226" font-family="'JetBrains Mono','SF Mono',Consolas,monospace" font-size="12" fill="#F4F7FF" opacity=".85">#0A5BFF</text><rect x="442" y="150" width="124" height="92" rx="12" fill="#050B18" stroke="#ffffff" stroke-opacity=".14"/><text x="454" y="206" font-family="'Plus Jakarta Sans','Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#F4F7FF">Background</text><text x="454" y="226" font-family="'JetBrains Mono','SF Mono',Consolas,monospace" font-size="12" fill="#F4F7FF" opacity=".85">#050B18</text><rect x="576" y="150" width="124" height="92" rx="12" fill="#0B1428" stroke="#ffffff" stroke-opacity=".14"/><text x="588" y="206" font-family="'Plus Jakarta Sans','Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#F4F7FF">Surface</text><text x="588" y="226" font-family="'JetBrains Mono','SF Mono',Consolas,monospace" font-size="12" fill="#F4F7FF" opacity=".85">#0B1428</text><rect x="710" y="150" width="124" height="92" rx="12" fill="#F4F7FF" stroke="#ffffff" stroke-opacity=".14"/><text x="722" y="206" font-family="'Plus Jakarta Sans','Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#050B18">Foreground</text><text x="722" y="226" font-family="'JetBrains Mono','SF Mono',Consolas,monospace" font-size="12" fill="#050B18" opacity=".85">#F4F7FF</text><rect x="844" y="150" width="124" height="92" rx="12" fill="#9AA8C3" stroke="#ffffff" stroke-opacity=".14"/><text x="856" y="206" font-family="'Plus Jakarta Sans','Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#050B18">Muted</text><text x="856" y="226" font-family="'JetBrains Mono','SF Mono',Consolas,monospace" font-size="12" fill="#050B18" opacity=".85">#9AA8C3</text>
+<g font-family="'Plus Jakarta Sans','Segoe UI',Helvetica,Arial,sans-serif">
+<text x="40" y="276" font-size="12" font-weight="700" fill="#3DA5FF" letter-spacing="2">TYPOGRAPHY</text>
+<text x="40" y="316" font-size="30" font-weight="800" fill="#F4F7FF">Plus Jakarta Sans</text><text x="40" y="340" font-size="12" fill="#9AA8C3">Headings · 600 / 700 / 800</text>
+<text x="340" y="316" font-size="30" font-weight="500" fill="#F4F7FF" font-family="Inter,'Plus Jakarta Sans','Segoe UI',Helvetica,Arial,sans-serif">Inter</text><text x="340" y="340" font-size="12" fill="#9AA8C3">Body text · 400 / 500</text>
+<text x="520" y="316" font-size="21" fill="#F4F7FF" font-family="'JetBrains Mono','SF Mono',Consolas,monospace">&lt;/&gt; JetBrains Mono</text><text x="520" y="340" font-size="12" fill="#9AA8C3">Code and labels</text>
+<text x="790" y="316" font-size="26" fill="#F4F7FF" font-family="'IBM Plex Sans Arabic','Plus Jakarta Sans','Segoe UI',Helvetica,Arial,sans-serif">محمد سليم</text><text x="790" y="340" font-size="12" fill="#9AA8C3">IBM Plex Sans Arabic</text>
+</g>
+<rect x="40" y="362" width="920" height="3" rx="1.5" fill="url(#w0)"/>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#050B18"/><stop offset="1" stop-color="#0B1428"/></linearGradient>
+<radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#1F6BFF" stop-opacity=".55"/><stop offset="1" stop-color="#1F6BFF" stop-opacity="0"/></radialGradient>
+<linearGradient id="w0" x1="0" x2="1"><stop offset="0" stop-color="#0A5BFF"/><stop offset="1" stop-color="#3DA5FF"/></linearGradient>
+<linearGradient id="w1" x1="0" x2="1"><stop offset="0" stop-color="#3DA5FF"/><stop offset="1" stop-color="#1F6BFF"/></linearGradient>
+<linearGradient id="w2" x1="0" x2="1"><stop offset="0" stop-color="#1F6BFF"/><stop offset="1" stop-color="#0A5BFF"/></linearGradient>
+<linearGradient id="tx" x1="0" x2="1"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#3DA5FF"/></linearGradient>
+</defs>
+</svg>
