@@ -45,9 +45,22 @@ def cutout(path):
 
 
 img, fg = cutout(src)
-img = ImageEnhance.Contrast(img).enhance(1.04)
-img = ImageEnhance.Color(img).enhance(1.1)
-img = ImageEnhance.Sharpness(img).enhance(1.4)
+
+
+def tone(img, stops=((0.0, (8, 22, 34)), (0.45, (16, 150, 190)), (1.0, (232, 251, 255)))):
+    """Single-hue (cyan) portrait: CLAHE on luminance, then map through a gradient."""
+    g = np.asarray(img.convert("L"))
+    g = cv2.createCLAHE(clipLimit=2.6, tileGridSize=(6, 6)).apply(g).astype(float) / 255
+    g = np.clip((g - 0.08) / 0.84, 0, 1) ** 1.15
+    out = np.zeros(g.shape + (3,))
+    for (a, ca), (b, cb) in zip(stops, stops[1:]):
+        m = (g >= a) & (g <= b)
+        t = ((g - a) / (b - a))[m][:, None]
+        out[m] = np.array(ca) * (1 - t) + np.array(cb) * t
+    return Image.fromarray(out.astype(np.uint8))
+
+
+img = tone(img)
 small = img.resize((N, N), Image.LANCZOS)
 mask = cv2.resize(fg, (N, N), interpolation=cv2.INTER_AREA) > 127
 dist = cv2.distanceTransform(mask.astype(np.uint8), cv2.DIST_L2, 3)
@@ -81,7 +94,7 @@ for j in range(N):
             palette.append(c)
             continue
         depth = 1.5 + (gray[j, i] ** 1.4) * DEPTH * 0.35 + dist[j, i] * DEPTH * 0.65
-        k = 1.0 + 0.06 * (1 - (i + j) / (2 * N))
+        k = 1.0
         cells.append((i, j, tuple(min(255, int(v * k)) for v in c), depth))
 cells.sort(key=lambda t: (round(t[3]), t[1], t[0]))
 
