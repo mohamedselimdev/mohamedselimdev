@@ -20,7 +20,7 @@ S = 8.0            # screen size of one pixel (front face)
 DEPTH = 15.0       # max extrusion
 SHIFT = 0.27       # depth -> up/right offset of the front face
 BUCKETS = 16
-BG = "#0f1724"     # plain backdrop
+BG = "#101216"     # plain backdrop
 random.seed(11)
 
 
@@ -47,8 +47,8 @@ def cutout(path):
 img, fg = cutout(src)
 
 
-def tone(img, stops=((0.0, (8, 22, 34)), (0.45, (16, 150, 190)), (1.0, (232, 251, 255)))):
-    """Single-hue (cyan) portrait: CLAHE on luminance, then map through a gradient."""
+def tone(img, stops=((0.0, (14, 15, 18)), (0.5, (128, 132, 140)), (1.0, (248, 249, 251)))):
+    """Single-hue (white/grey) portrait: CLAHE on luminance, then map through a gradient."""
     g = np.asarray(img.convert("L"))
     g = cv2.createCLAHE(clipLimit=2.6, tileGridSize=(6, 6)).apply(g).astype(float) / 255
     g = np.clip((g - 0.08) / 0.84, 0, 1) ** 1.15
@@ -111,7 +111,7 @@ o.append(f'''<defs>
 <linearGradient id="sw" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".28"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
 <clipPath id="cp"><rect x="1" y="1" width="{W - 2}" height="{H - 2}" rx="26"/></clipPath>
 </defs>''')
-o.append(f'<rect x="1" y="1" width="{W - 2}" height="{H - 2}" rx="26" fill="{BG}" stroke="#00e5ff" stroke-opacity=".35" stroke-width="2"/>')
+o.append(f'<rect x="1" y="1" width="{W - 2}" height="{H - 2}" rx="26" fill="{BG}" stroke="#ffffff" stroke-opacity=".22" stroke-width="2"/>')
 o.append('<g clip-path="url(#cp)"><g class="f">')
 for i, j, c in drift:
     c = c or random.choice(palette)
